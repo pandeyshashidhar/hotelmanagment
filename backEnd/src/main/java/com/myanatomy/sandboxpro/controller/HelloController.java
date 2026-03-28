@@ -14,4 +14,9 @@ public class HelloController {
     public String getAllHotelData() {
         return "This will give you all hotel details";
     }
+
+    @GetMapping("/getAllHotelDetails")
+    public String getAllHotelDetails() {
+        return "This will give you all hotel details";
+    }
 }
